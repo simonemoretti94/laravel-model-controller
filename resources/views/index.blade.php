@@ -8,8 +8,21 @@ index
 
 @section('content')
 
-@foreach ($movies_data as $movie)
-    <p style="color: black; font-size: 20px;">{{$movie['title']}}</p>    
-@endforeach
+<div class="container bg-dark">
+    <div class="row gy-1">
+        @foreach ($movies_data as $movie)
+        <div class="col-lg-4 col-md-6 col-sm-12 p-1">
+            <div class="card d-flex flex-column">
+            <div class="card-header">
+            <p>{{$movie['title']}}</p>    
+            </div>
+            <div class="card-footer">
+            <p>{{$movie['original_title']}}</p>    
+            </div>
+            </div>
+        </div>
+        @endforeach
+    </div>
+</div>
 
 @endsection
