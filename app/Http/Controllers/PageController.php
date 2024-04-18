@@ -11,10 +11,6 @@ class PageController extends Controller
     {
         $movies_data = Movie::all();
 
-        return view('home', compact('movies_data'));
+        return view('index', compact('movies_data'));
     }
 }
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/simonemoretti94/laravel-model-controller.git
-// git push -u origin main
