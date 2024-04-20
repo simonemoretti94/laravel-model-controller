@@ -13,6 +13,7 @@ body {
     }
 
     & main {
+        min-height: calc(100vh - 200px);
 
         >.container {
             margin-top: 1rem;
