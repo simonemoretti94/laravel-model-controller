@@ -1,9 +1,9 @@
 <div class="container-fluid">
-    <div class="row">
-        <nav>
-        <a href="{{route('index')}}">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contacts</a>
-        </nav>
-    </div>
+<nav
+    class="nav justify-content-evenly">
+    <a class="nav-link {{Route::currentRouteName() === 'index' ? 'bg-active' : ''}}" href="{{route('index')}}" aria-current="page">Home</a>
+    <a class="nav-link" href="#">About</a>
+    <a class="nav-link" href="#">Contacts</a>
+</nav>
 </div>
+
