@@ -29,7 +29,7 @@
         </main>
 
     {{-- footer --}}
-        <footer>
+        <footer class="bg-dark">
         @include('partials.footer')
         </footer>
 

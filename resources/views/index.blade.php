@@ -8,10 +8,10 @@ index
 
 @section('content')
 
-<div class="container bg-dark">
+<div class="container bg-dark mb-4">
     <div class="row gy-1 {{count($movies_data) % 2 === 0 ? 'justify-content-evenly' : 'justify-content-center'}}">
         @foreach ($movies_data as $movie)
-        <div id="card-col" class="col-lg-4 col-md-6 col-sm-6 col-12 p-1">
+        <div id="card-col" class="col-lg-3 col-md-4 col-sm-6 col-12 p-1">
             <div id="card" class="card d-flex flex-column">  
                 <img class="card-img-top" src="https://picsum.photos/200/300" alt="picsum">
                 <div class="card-footer">
