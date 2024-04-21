@@ -25,7 +25,7 @@ index
         <ul class="bg-light w-50 mx-auto my-2 rounded rounded-2 list-unstyled">
         @foreach ($movies_data as $movie)
             <li class=" text-left" >
-                <a href="/movie/{{$movie['id']}}" class="text-primary">
+                <a href="/movie/{{$movie['original_title']}}" class="text-primary">
                     <strong>{{$movie['id']}} | </strong> {{$movie['original_title']}}
                 </a>
             </li>    

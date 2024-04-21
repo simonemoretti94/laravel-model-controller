@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-movie
+{{$film['original_title']}}
 @endsection
 
 @section('content')

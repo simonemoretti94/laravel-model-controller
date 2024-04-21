@@ -18,7 +18,7 @@ Route::get('/movie/{id}' , function($id){
     //dd($id);
     $movies_data = Movie::where('vote', '<=' , 9)->orderBy('vote', 'desc')->limit(4)->get();
 
-    $film = Arr::first($movies_data , fn($movie) => $movie['id'] == $id);
+    $film = Arr::first($movies_data , fn($movie) => $movie['original_title'] == $id);
 
     //dd($film);
 
