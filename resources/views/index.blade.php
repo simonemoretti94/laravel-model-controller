@@ -16,13 +16,13 @@ index
                 <img class="card-img-top" src="https://picsum.photos/200/300" alt="picsum">
                 <div class="card-footer">
                     <p>id: {{$movie['id']}} | vote: {{$movie['vote']}}</p>
-                    <p>title: {{$movie['original_title']}}</p>    
+                    <p>title: <a class="text-primary" href="/movie/{{$movie['original_title']}}">{{$movie['original_title']}}</a></p>    
                 </div>
             </div>
         </div>
         @endforeach
 
-        <div class="container">
+        {{-- <div class="container">
         <ul class="w-50 mx-auto my-2 ms-0">
         @foreach ($movies_data as $movie)
             <li style="text-align: left !important;">
@@ -32,7 +32,7 @@ index
             </li>    
         @endforeach
         </ul>
-        </div>
+        </div> --}}
 
     </div>
     <h2 style="color: white;">array length: {{count($movies_data)}}</h2>

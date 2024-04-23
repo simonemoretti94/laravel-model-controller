@@ -1,24 +1,24 @@
 <div class="container d-flex justify-content-evenly ">
     <ul class="list-group  text-white">
     <h6 class="text-uppercase text-primary">About us</h6>
-        <a>lorem4</a>
-        <a>lorem4</a>
-        <a>lorem4</a>
-        <a>lorem4</a>
+        <a>lorem</a>
+        <a>lorem</a>
+        <a>lorem</a>
+        <a>lorem</a>
     </ul>
      <ul class="list-group text-white">
      <h6 class="text-uppercase text-primary">Work with us</h6>
-        <a>lorem4</a>
-        <a>lorem4</a>
-        <a>lorem4</a>
-        <a>lorem4</a>
+        <a>lorem</a>
+        <a>lorem</a>
+        <a>lorem</a>
+        <a>lorem</a>
     </ul>
      <ul class="list-group text-white">
      <h6 class="text-uppercase text-primary">Academy</h6>
-        <a>lorem4</a>
-        <a>lorem4</a>
-        <a>lorem4</a>
-        <a>lorem4</a>
+        <a>lorem</a>
+        <a>lorem</a>
+        <a>lorem</a>
+        <a>lorem</a>
     </ul>
 </div>
 
